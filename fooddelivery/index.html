@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Bonheur+Royale&family=Comic+Neue:wght@700&family=Cookie&family=Cormorant+Garamond:ital,wght@0,400;1,300&family=IM+Fell+DW+Pica:ital@0;1&family=Italiana&family=Karla:wght@200&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Limelight&family=Lobster&family=Lobster+Two&family=Marcellus&family=Merriweather:wght@300&family=Montserrat&family=Pacifico&family=Parisienne&family=Playfair+Display:ital,wght@0,400;1,500&family=Poppins&family=Quintessential&family=Roboto:wght@900&family=Sacramento&family=Satisfy&family=Tangerine&family=WindSong&family=Work+Sans:wght@500&family=Young+Serif&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/226d183df1.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header>
+        <!--defining navbar-->
+        <nav>
+            <div class="brand">
+                <a href="/">Foodie&Co.</a>
+            </div>
+            <div class="mainmenu">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Food</a></li>
+                    <li><a href="/">Delivery</a></li>
+                    <li><a href="/">Blog</a></li>
+                    <li><a href="/">Contact</a></li>
+                </ul>
+            </div>
+            <div class="logbtn">
+                <ul>
+                    <li style="padding: 10px 0;"><a href="/"><i class="fa-solid fa-bag-shopping"></i> &nbsp; Log in</a>
+                    </li>
+                    <li><button type="submit">Sign Up</button></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container d-inline-flex">
+            <div class="p-2 heading">
+                <h1>Enjoy quick <span class="green">food</span> delivery in special occassions.</h1>
+                <p>Flavors at Your Doorstep: Unwrap the Taste of Convenience! From delectable bites to gourmet delights,
+                    savor the convenience of a flavorful journey, hand-delivered to your door.</p>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-danger" type="submit"><i class="fa-solid fa-magnifying-glass"></i>
+                        Search</button>
+                </form>
+            </div>
+            <div class="p-2 img">
+                <img src="images/delivery-location.svg" alt="delivery" width="550px" height="500px">
+            </div>
+        </div>
+
+        <div class="container menucont">
+            <h3>Special menus</h3>
+            <div class="d-inline-flex in-cont">
+                <div class="p-2 div-1"
+                    style="background-color: #fde1a9; box-shadow: 3px 5px 10px #fde1a9; border: 2px solid #fde1a9;">
+                    <div id="img-burger">
+                        <img src="images/hamburger.png" alt="burger" width="100px">
+                    </div>
+                    <div class="text">
+                        <h4>Burger</h4>
+                        <p>109 items</p>
+                    </div>
+                </div>
+                <div class="p-2 div-1"
+                    style="background-color: #ffe2e6; box-shadow: 3px 5px 10px #ffe2e6;  border: 2px solid #ffe2e6;">
+                    <div id="img-smoothie">
+                        <img src="images/smoothie.png" alt="strawberry smoothie" width="100px">
+                    </div>
+                    <div class="text">
+                        <h4>Strawberry</h4>
+                        <p>109 items</p>
+                    </div>
+                </div>
+                <div class="p-2 div-1"
+                    style="background-color: #f6eee2; box-shadow: 3px 5px 10px #f6eee2;  border: 2px solid #f6eee2;">
+                    <div id="img-chocolate">
+                        <img src="images/cake.png" alt="chocolate cake" width="100px">
+                    </div>
+                    <div class="text">
+                        <h4>Chocolate</h4>
+                        <p>109 items</p>
+                    </div>
+                </div>
+                <div class="p-2 div-1"
+                    style="background-color: #fefeda; box-shadow: 0px 2px 3px #fefeda;  border: 2px solid #fefeda;">
+                    <div id="img-desserts">
+                        <img src="images/dessert.png" alt="Desserts" width="100px">
+                    </div>
+                    <div class="text">
+                        <h4>Desserts</h4>
+                        <p>109 items</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="d-flex">
+            <div class="p-2">
+                <img src="images/delivery.svg" alt="delivery" width="740px" height="600px" style="margin-top: -10%;">
+            </div>
+            <div class="p-2 mt-5 subtext">
+                <h2>Your favourite food <span class="green">Delivery</span> Partner.</h2>
+                <p> At the heart of our platform lies a commitment to transforming mealtime into a seamless and
+                    flavorful experience. Explore a diverse array of culinary treasures curated from the finest
+                    restaurants, delivered right to your doorstep.</p>
+                <button type="button" class="btn btn-danger">Find Out More &nbsp; <i
+                        class="fa-solid fa-arrow-right"></i></button>
+            </div>
+        </div>
+
+        <div class="container hero">
+            <h3 id="menu-h3">Most popular items</h3>
+            <div class="test-container">
+                <div class="indicator">
+                    <span class="btn-1 active">Breakfast</span>
+                    <span class="btn-1">Lunch</span>
+                    <span class="btn-1">Dinner</span>
+                </div>
+            </div>
+            <div class="lunch-menu">
+                <div class="slide-row" id="slide">
+                  <div class="slide-col d-flex">
+                        <div class="p-2 window">
+                            <div id="img-burger">
+                                <img src="images/breakfast1.png" alt="Soup" width="140px">
+                            </div>
+                            <div class="text">
+                                <h4>Soup</h4>
+                                <p>109 items</p>
+                            </div>
+                        </div>
+                        <div class="p-2 window">
+                            <div id="img-burger">
+                                <img src="images/breakfast2.png" alt="Sandwhich" width="140px">
+                            </div>
+                            <div class="text">
+                                <h4>Sandwhich</h4>
+                                <p>109 items</p>
+                            </div>
+                        </div>
+                        <div class="p-2 window">
+                            <div id="img-burger">
+                                <img src="images/breakfast3.png" alt="Desserts" width="150px">
+                            </div>
+                            <div class="text">
+                                <h4>Desserts</h4>
+                                <p>109 items</p>
+                            </div>
+                        </div>
+                        <div class="p-2 window">
+                            <div id="img-burger">
+                                <img src="images/breakfast4.png" alt="burger" width="120px">
+                            </div>
+                            <div class="text">
+                                <h4>Fried Eggs and Toast</h4>
+                                <p>109 items</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide-col d-flex">
+                        <div class="p-2 window">
+                            <div class="img-dinner">
+                                <img src="images/dinner1.png" alt="burger" width="150px">
+                            </div>
+                            <div class="text">
+                                <h4>Ramen</h4>
+                                <p>109 items</p>
+                            </div>
+                        </div>
+                        <div class="p-2 window">
+                            <div class="img-dinner">
+                                <img src="images/dinner2.png" alt="burger" width="120px">
+                            </div>
+                            <div class="text">
+                                <h4>Salad</h4>
+                                <p>109 items</p>
+                            </div>
+                        </div>
+                        <div class="p-2 window">
+                            <div class="img-dinner">
+                                <img src="images/dinner3.png" alt="burger" width="140px">
+                            </div>
+                            <div class="text">
+                                <h4>Fried Rice</h4>
+                                <p>109 items</p>
+                            </div>
+                        </div>
+                        <div class="p-2 window">
+                            <div class="img-dinner">
+                                <img src="images/dinner4.png" alt="burger" width="140px" style=" margin: 0 10px;">
+                            </div>
+                            <div class="text">
+                                <h4>Pasta</h4>
+                                <p>109 items</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide-col d-flex">
+                        <div class="p-2 window">
+                            <div class="img-lunch">
+                                <img src="images/lunch1.png" alt="lunch" width="140px">
+                            </div>
+                            <div class="text">
+                                <h4>Veg Salad</h4>
+                                <p>109 items</p>
+                            </div>
+                        </div>
+                        <div class="p-2 window">
+                            <div class="img-lunch">
+                                <img src="images/lunch-2.png" alt="burger" width="140px">
+                            </div>
+                            <div class="text">
+                                <h4>Sliced Fruits</h4>
+                                <p>59 items</p>
+                            </div>
+                        </div>
+                        <div class="p-2 window">
+                            <div class="img-lunch">
+                                <img src="images/lunch3.png" alt="burger" width="140px">
+                            </div>
+                            <div class="text">
+                                <h4>Non Vegitarian Cuisines</h4>
+                                <p>109 items</p>
+                            </div>
+                        </div>
+                        <div class="p-2 window">
+                            <div class="img-lunch">
+                                <img src="images/lunch4.png" alt="Pizza" width="140px">
+                            </div>
+                            <div class="text">
+                                <h4>Pizza</h4>
+                                <p>109 items</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            </div>
+
+        <div class="container-fluid review-cont">
+            <h4 class="p-5">What our customers say</h4>
+            <div class="d-inline-flex mt-5">
+                <div class="p-2 review1">
+                    <img src="images/model1.jpeg" alt="Customer" width="100px">
+                    <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit quod deleniti itaque doloribus praesentium delectus soluta officiis consequatur deserunt porro?</p>
+                    <center><hr class="hr-line"></center>
+                    <p class="text-small">Lorem, ipsum.</p>
+                </div>
+                <div class="p-2 review1">
+                    <img src="images/model2.jpg" alt="Customer" width="100px">
+                    <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit quod deleniti itaque doloribus praesentium delectus soluta officiis consequatur deserunt porro?</p>
+                    <center><hr class="hr-line"></center>
+                    <p class="text-small">Lorem, ipsum.</p>
+                </div>
+                <div class="p-2 review1">
+                    <img src="images/model3.jpg" alt="Customer" width="100px">
+                    <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit quod deleniti itaque doloribus praesentium delectus soluta officiis consequatur deserunt porro?</p>
+                    <center><hr class="hr-line"></center>
+                    <p class="text-small">Lorem, ipsum.</p>
+                </div>
+                <div class="p-2 review1">
+                    <img src="images/model4.jpg" alt="Customer" width="100px">
+                    <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit quod deleniti itaque doloribus praesentium delectus soluta officiis consequatur deserunt porro?</p>
+                    <center><hr class="hr-line"></center>
+                    <p class="text-small">Lorem, ipsum.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid blog-cont mt-5">
+            <h4>Read Latest Blog</h4>
+            <div class="d-flex m-4">
+                <div class="p-4 d-inline-block mt-5 mx-3 blog2">
+                    <center><img src="/images/desifoods.jpg" alt="Desi Food" width="250px" height="170px" class="p-3"></center>
+                    <p class="p-1"><span class="bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span> <br> Labore hic nobis ipsa ab, alias quibusdam animi in, adipisci molestiae accusantium quae. Quisquam nulla et cum nesciunt tenetur, numquam nemo suscipit.</p>
+                </div>
+                <div class="p-0 d-block">
+                    <div class="blog1 m-3">
+                        <img src="/images/desifoods.jpg" alt="Desi Food" width="180px" height="120px" class="p-3">
+                        <p class="p-4 px-0"><span class="bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span> <br> Labore hic nobis ipsa ab, alias quibusdam animi in, adipisci molestiae accusantium quae. Quisquam nulla et cum nesciunt tenetur, numquam nemo suscipit.</p>
+                </div>
+                <div class="blog1 m-3">
+                    <img src="/images/desifoods.jpg" alt="Desi Food" width="180px" height="120px" class="p-3">
+                    <p class="p-4 px-0"><span class="bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span> <br> Labore hic nobis ipsa ab, alias quibusdam animi in, adipisci molestiae accusantium quae. Quisquam nulla et cum nesciunt tenetur, numquam nemo suscipit.</p>
+                </div>
+                <div class="blog1 m-3">
+                    <img src="/images/desifoods.jpg" alt="Desi Food" width="180px" height="120px" class="p-3">
+                    <p class="p-4 px-0"><span class="bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span> <br> Labore hic nobis ipsa ab, alias quibusdam animi in, adipisci molestiae accusantium quae. Quisquam nulla et cum nesciunt tenetur, numquam nemo suscipit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer container-fluid bg-dark-subtle p-5">
+
+        <div class="d-flex justify-content-center">
+            <div class="foot-details p-3">
+                <div class="foot-brand p-2">
+                    <a href="/"><i class="fa-solid fa-plate-wheat"></i> Foodie&Co.</a>
+                </div>
+                <div class="foot-brand p-2">
+                    <a href="/"><i class="fa-solid fa-envelope"></i> truptibansode3@gmail.com</a>
+                </div>
+                <div class="foot-brand p-2">
+                    <a href="/"><i class="fa-solid fa-phone-flip"></i> 7021065277</a>
+                </div>
+                <div class="foot-brand p-2">
+                    <a href="/"><i class="fa-solid fa-paper-plane"></i> Mumbai, Maharashtra</a>
+                </div>
+            </div>
+    
+           <div class="foot-menu p-3">
+            <h5>Our Menu</h5>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Food</a></li>
+                <li><a href="/">Delivery</a></li>
+                <li><a href="/">Blog</a></li>
+                <li><a href="/">Contact</a></li>
+            </ul>
+           </div>
+    
+           <div class="foot-info p-3">
+            <h5>Information</h5>
+            <ul>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Delivery</a></li>
+                <li><a href="/">Blog</a></li>
+                <li><a href="/">Contact</a></li>
+            </ul>
+           </div>
+    
+           <div class="foot-links p-3">
+            <h5>Information</h5>
+            <ul>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Service</a></li>
+                <li><a href="/">Delivery</a></li>
+                <li><a href="/">Blog</a></li>
+                <li><a href="/">Contact</a></li>
+            </ul>
+           </div>
+    
+           <div class="foot-socials p-3">
+            <h5>Follow on social media</h5>
+            <ul>
+                <li><a href="http://instagram.com/tobesotrupti"> Instagram <i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="http://facebook.com/Trupti Bansode"> Facebook <i class="fa-brands fa-square-facebook"></i></a></li>
+                <li><a href="http://x.com"> Twitter <i class="fa-brands fa-twitter"></i></a>
+                </li>
+                <li><a href="https://www.linkedin.com/in/truptibansode/"> Linked In <i class="fa-brands fa-linkedin"></i></a></li>
+            </ul>
+           </div>
+        </div>
+
+       <address class="mt-5">&copy; Foodie&Co. 2023 Designed by Trupti Bansode</address>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <script>
+        var btn = document.getElementsByClassName('btn-1');
+        var slide = document.getElementById('slide');
+
+
+        btn[0].onclick = function () {
+            slide.style.transform = "translateX(0px)";
+            for (i = 0; i < 3; i++) {
+                btn[i].classList.remove("active");
+            }
+            this.classList.add("active");
+        }
+        btn[1].onclick = function () {
+            slide.style.transform = "translateX(-830px)";
+            for (i = 0; i < 3; i++) {
+                btn[i].classList.remove("active");
+            }
+            this.classList.add("active");
+        }
+        btn[2].onclick = function () {
+            slide.style.transform = "translateX(-1660px)";
+            for (i = 0; i < 3; i++) {
+                btn[i].classList.remove("active");
+            }
+            this.classList.add("active");
+        }
+
+        var currentIndex = 0;
+
+document.addEventListener('keydown', function (event) {
+    if (event.key === 'ArrowLeft') {
+        // Move to the previous slide
+        currentIndex = Math.max(currentIndex - 1, 0);
+        moveSlide(currentIndex);
+    } else if (event.key === 'ArrowRight') {
+        // Move to the next slide
+        currentIndex = Math.min(currentIndex + 1, 2);
+        moveSlide(currentIndex);
+    }
+});
+
+function moveSlide(index) {
+    var slide = document.getElementById('slide');
+    var btn = document.getElementsByClassName('btn-1');
+
+    // Calculate the new position based on the index
+    var newPosition = -index * 830;
+
+    // Set the new position for the slide
+    slide.style.transform = 'translateX(' + newPosition + 'px)';
+
+    // Update the active button
+    for (var i = 0; i < 3; i++) {
+        btn[i].classList.remove('active');
+    }
+
+    btn[index].classList.add('active');
+}
+    </script>
+</body>
+
+</html>
